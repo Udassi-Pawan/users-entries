@@ -1,0 +1,7 @@
+.cardwrapper {
+  background-color: white;
+  padding: 1rem;
+  width: 60vw;
+  display: inline-block;
+  border-radius: 1rem;
+}

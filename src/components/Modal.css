@@ -1,0 +1,39 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.modalwindow {
+  height: 8rem;
+  width: 30rem;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 2;
+  background-color: white;
+  border-radius: 0.5rem;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+}
+
+.modalwindow h4 {
+  /* width: 100%;    */
+  padding: 0.3rem;
+  background-color: purple;
+  color: white;
+}
+
+.modalwindow button {
+  width: fit-content;
+  /* justify-self: flex-end; */
+  align-self: flex-end;
+  margin: 0.5rem;
+  background-color: purple;
+  color: white;
+  padding: 0.2rem 0.4rem;
+  border: none;
+  cursor: pointer;
+}

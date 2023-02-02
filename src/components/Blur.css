@@ -1,0 +1,11 @@
+.blur {
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  backdrop-filter: blur(10px) brightness(0.6);
+  z-index: 1;
+}
+
+.hatao {
+  display: none;
+}
